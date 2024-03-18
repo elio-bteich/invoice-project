@@ -11,8 +11,8 @@ The "Invoice Project" was designed as a comprehensive invoice management system 
 2- Customer Management: Users can create customers, but the implementation is limited to adding customers only. However, the suggested customer names are available for selection when typing the customer name during invoice creation.
 
 
-## Requirement
-Currently, the invoice generation process is limited, and only one item with code "ABCDE" can be included in the invoice. To specify the unit price of the item, users should type the currency followed by the price (e.g., USD 132). The conversion and all calculations are done automatically.
+## Requirement (IMPORTANT)
+Currently, the invoice generation process is limited, and only one item with code "ABCDE" can be included in the invoice. To specify the unit price of the item, users should type the currency followed by the price (e.g., USD 132), the only currencies supported are USD and LBP. The conversion and all calculations are done automatically.
 
 Please note that the application may throw errors if the specified steps are not followed due to the incomplete implementation. Nevertheless, the project serves as a demonstration of dynamic PDF rendering, which is useful for generating invoices.
 
