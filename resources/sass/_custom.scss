@@ -1,0 +1,137 @@
+.my-container {
+    margin: 20px 50px 40px 50px;
+}
+
+.my-hr {
+    height: 3px;
+    width: 100%;
+    margin-left: 0;
+    background: black;
+}
+
+.input-info {
+    width: 100%;
+    background: none;
+    border: none;
+    outline: none;
+}
+
+.my-table thead {
+    width: 100%;
+}
+
+#price-in-words textarea {
+    border: none;
+    resize: none;
+}
+
+.table-wrapper {
+    position: relative;
+    max-height: 450px;
+    overflow-y: auto;
+}
+
+td input {
+    background: none;
+    border: none;
+    width: 100%;
+}
+
+.my-table {
+    border: black 1px solid;
+}
+
+.my-table td{
+    border-right: black 1px solid;
+    border-left: black 1px solid;
+}
+
+.my-table thead th {
+    text-align: center;
+    border: black solid 1px;
+}
+.my-table tbody td:first-child {
+    text-align: center;
+}
+
+.total-table-wrapper {
+    padding: 0 15px;
+    flex-direction: row;
+    width: calc(30% + 21px);
+}
+
+.total-table {
+    border: black solid 1px;
+    width: 100%;
+}
+
+.total-table tr {
+    border: black 1px solid;
+}
+
+.total-table th {
+    text-align: center;
+    border-right: black 1px solid;
+}
+
+/* Chrome, Safari, Edge, Opera */
+.my-table input::-webkit-outer-spin-button,
+.my-table input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+/* Firefox */
+.my-table input[type=number] {
+    -moz-appearance: textfield;
+}
+
+#customers-list {
+    border: 1px solid #c5c5c5;
+    background: white;
+    position: absolute;
+    width: 50%;
+    z-index: 1;
+    display: none;
+}
+
+#customers-list li:hover {
+    color: white;
+    cursor: pointer;
+    background: rgba(128, 128, 128, 0.51);
+}
+
+#customers-list li {
+    padding-left: 3px;
+    list-style-type: none;
+}
+
+#customers-list ul {
+    margin: 0;
+    padding: 0;
+}
+
+#items-list {
+    border: 1px solid #c5c5c5;
+    background: white;
+    position: absolute;
+    width: 50%;
+    z-index: 1;
+    display: none;
+}
+
+#items-list li:hover {
+    color: white;
+    cursor: pointer;
+    background: rgba(128, 128, 128, 0.51);
+}
+
+#items-list li {
+    padding-left: 3px;
+    list-style-type: none;
+}
+
+#items-list ul {
+    margin: 0;
+    padding: 0;
+}
